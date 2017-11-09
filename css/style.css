@@ -1,0 +1,181 @@
+/* @Typography */
+body { font-family: 'Libre Baskerville', sans-serif; font-weight: 400; }
+
+h1, h2 { font-family: 'Abril Fatface', serif; font-weight: 400;  }
+h2 { font-size: 4rem; text-align: center; }
+h3, blockquote, header p, nav a { font-family: 'Libre Baskerville', serif; }
+h3 {font-size: 1.5rem;padding: 0.5em 0 0.5em;color: #4a4a4a;font-weight: 400;}
+h3 em { padding: 0.15em; background-color: rgba(255,255,0,0.7); font-weight: normal;}
+
+img { backface-visibility: hidden; }
+
+a { -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out;}
+a:hover, a:focus { color: #2fd99f;}
+
+em { padding: 0.15em; background-color: rgba(255,255,0,0.7);}
+
+p { font-size: 1.1rem; line-height: 1.7;}
+p em { background-color: rgba(255,255,0,0.5); font-style: normal; }
+p a { padding: 0.15em; border-bottom: 2px dotted #9a9a9a; color: #4a4a4a; ;}
+p a:hover { color: #444; border-bottom: 2px dotted #2fd99f; background-color: rgba(47,217,159,0.1);}
+
+blockquote { font-size: 1.5rem; color: #4a4a4a; font-weight: 400; }
+label { opacity: 0.5; padding-top: 1em; color: #4a4a4a; }
+
+header h1 { font-size: 5rem; }
+#top h1, #retrospective h2 { color: #4a4a4a; text-shadow: 2px 3px 1px rgba(255,255,0,0.7); }
+#about h2, #definition h2 { text-shadow: 1px 2px 0.5px rgba(62, 255, 136, 0.7); }
+#work h2, #approach h2 { text-shadow: 1px 2px 0.5px rgba(62, 200, 255, 0.7); }
+#contact h2, #solution h2 { text-shadow: 1px 2px 0.5px rgba(255, 91, 62, 0.7);  }
+#top p { font-size: 1.5rem; color: #4a4a4a; }
+
+#about aside { color: #6a6a6a; text-align: center; padding: 2rem 0.25rem;}
+#about aside span { font-size: 2.5rem; line-height: 0.8; font-weight: bold;  }
+
+a.breadcrumb { color: #4a4a4a; padding: 1em; transition: all .5s ease-in-out;}
+a.breadcrumb:hover { background: rgba(0,0,0,0.2);}
+
+.project header { text-align: center; }
+
+section h2 { color: #4a4a4a; }
+.project article { margin-top: 0.5rem; }
+.project article p { max-width: 95%; }
+
+#work h3, #work a { color: #9a9a9a; }
+#work h3 { font-size: 2em; line-height: 1.2; margin-top: 1rem; transition: all .5s ease-in-out;}
+#work figure a { display: block; }
+#work figure a:hover h3 { color: #4a4a4a; }
+#work figure a:hover a { color: #4a4a4a; }
+#work figure p { line-height: 1;}
+
+#contact h3 { padding-bottom: 0; }
+
+.project .case-study figure { text-align: center; }
+.project .case-study figcaption { font-size: 0.8rem; color: #9a9a9a; margin: 2rem 0; }
+
+nav { text-align: center; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out;}
+nav ul { margin-left: 0; }
+nav ul li a { font-size: 1rem; color: #2a2a2a; padding: 0.2em; border-bottom: solid 2px transparent; text-transform: lowercase; opacity: 0.5; }
+nav a:hover,
+nav a.active { opacity: 1; border-bottom-color: rgba(10,10,10,0.4); color: #4a4a4a; text-shadow: 2px 2px 1px rgba(189, 255, 228, 0.4); }
+nav ul li:focus a,
+nav ul li a:focus { border-bottom-color: transparent; color: #9a9a9a;}
+
+
+/* @Layout */
+#top { padding: 1em 0 8em; }
+header img { padding: 1em 0; max-width: 80%; }
+header h1 { margin: 1em 0 0; }
+
+nav ul { list-style-type: none; }
+nav ul li { padding: 1em; display: inline-block; }
+
+section { padding: 2em 0 1em; }
+section header { padding: 4rem 0 2rem; }
+.project section h2 { padding: 4rem 0;}
+
+blockquote { padding: 1em; margin: 1.5em 0 2em; }
+
+
+#about aside span { display: block; }
+.skills { margin-top: 5em; }
+.skills ul { list-style-type: none; }
+.skills li { display: block; float:left; min-width: 3rem; width: auto; padding: 0.5em 1em; margin: 0.5em; margin-left: 0; }
+
+#work {}
+#work figure { position: relative; padding: 2.5em 1.5em; margin-bottom: 2em; }
+
+nav.stick { position: fixed; top: 0; padding: 0; background: rgba(255,255,255, 0.8); width: 100%; z-index: 9999; }
+nav.stick ul li { padding: 0.5em 1em;}
+
+ul.social { list-style-type: none; margin-left: 0; }
+ul.social li { display: inline-block; padding: 0.5rem; }
+ul.social a { font-size: 2.5em; border-bottom: 0px solid transparent; color: #4a4a4a; transition: color .25s ease-in-out; }
+ul.social a:hover { color: #2fd99f; }
+
+input[type="submit"], #contact input#saveForm { margin-top: 1em; }
+
+footer { min-height: 8em; padding: 2rem 0; }
+footer p { opacity: 0.6; }
+footer a, footer a:hover { color: #4a4a4a; border-bottom: solid 1px #9a9a9a; }
+footer a:hover { border-bottom: solid 1px #4a4a4a; }
+
+
+/* @Style */
+#top, #retrospective  { border-left-width: 8px; border-left-style:  solid; border-color: rgba(255,255,0,0.7); }
+#about, #definition { border-left-width: 8px; border-left-style:  solid; border-color: rgba(62, 255, 136, 0.7); }
+#work, #approach { border-left-width: 8px; border-left-style:  solid; border-color: rgba(62, 200, 255, 0.7); }
+#contact, #solution { border-left-width: 8px; border-left-style:  solid; border-color: rgba(255, 91, 62, 0.7); }
+
+.home #top { background: url(../img/top/bg-top.png) bottom right / cover no-repeat; background-attachment: fixed; background-position: right; }
+header span { background: rgba(0,0,0, 0.5);}
+blockquote { background: rgba(220,220,220,0.4); border-left-color: #9a9a9a; border-bottom-color: #000; border-width: 0.5em; }
+.skills li { border: solid 0.15em #4a4a4a; border-radius: 0.5em; }
+
+#work { }
+#work figure { background: #fff; border: solid 3px #eaeaea; box-shadow: 0 2px 15px 0px hsla(5,5%,5%,.015); -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }
+#work figure:hover { background: #fff; border: solid 3px #bdffe4; box-shadow: 0 2px 25px 2px hsla(5,5%,5%,.2); }
+#work figure a:focus, #work figure a:focus h3 { outline: 0; color: #000; text-decoration: underline; }
+
+.button { border: 1px solid #4a4a4a; font-size: 1.25rem; background-color: transparent; color: #4a4a4a; }
+.button:hover, .button:focus { background-color: #4a4a4a; color: #fff; }
+
+footer { background: #eaeaea; color: #6a6a6a;}
+
+input, [type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {font-size: 1rem; color: #4a4a4a; background-color: rgba(254, 254, 254, 0.3); box-shadow: none; border-radius: 0; border: none; border-bottom: 2px solid rgba(67, 49, 68, 0.33);}
+[type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus, textarea:focus {border: none; background-color: transparent; outline: none; box-shadow: none; border-bottom: 2px solid #4a4a4a; background-color: rgba(254, 254, 254, 0.7); }
+
+/* @animation */
+
+/* @media queries */
+
+/* Obscenely Larger Screens */
+@media screen and ( min-width: 1600px ) {
+	body { font-size: 18px; }
+	.home #top h1 { font-size: 6rem; }
+}
+
+
+/* Text overlaps image */
+@media screen and ( max-width: 1400px ) {
+		#top header, #top nav{ background: rgba(255,255,255,0.8);  }
+		nav ul li a { opacity: 0.8; }
+}
+
+/* Larger Screens */
+@media screen and ( min-width: 641px ) {
+	.home #top h1, .home #top p { text-indent: 3rem; }
+}
+
+
+/* Mobile Phones */
+@media screen and ( max-width: 640px ) {
+	body.home #top { background-attachment: scroll; }
+	body { font-size: 16px;}
+	#top nav { padding: 1em 0; }
+	h1, h2 { font-size: 2rem; text-indent: 0;}
+	h3 { font-size: 1.5rem; }
+	section header { padding: 1rem 0; }
+	header h1 { font-size: 2.5rem; margin: 4rem auto 1rem; max-width: 85%; }
+	header h2 { font-size: 2.5rem; }
+	header p { max-width: 75%; margin: 0 auto; }
+	body.home #top { text-align: center; margin: 0 auto;  }
+	body.home #top h1 { margin: 0 auto 1rem; }
+	#top p, blockquote, p { font-size: 1.1rem; }
+	header * { text-align: center; }
+	nav ul li { padding: 0 0.5rem; }
+	nav ul li a { font-size: 0.8rem; }
+	#top nav.stick { background-color: rgba(255,255,255,0.9) }
+	nav.stick ul li { padding: 0.5rem }
+	nav a.breadcrumb { display: block; padding: 0.25rem 0.5rem 0.5rem; font-size: 0.8rem; }
+	#about aside { font-size: 0.8rem; }
+	.skills li { font-size: 0.8rem; }
+	#work figure.row { margin-left: 0.5em;  margin-right: 0.5em;}
+	#work figure h3 { line-height: 1.2;}
+	#work figure p { line-height: 1.2; font-size: 1rem;}
+	figcaption { padding-left: 0.5rem; padding-right: 0.5rem; }
+	#top, #retrospective,
+	#about, #definition,
+	#work, #approach,
+	#contact, #solution { border-left-width: 2px; border-right-width: 2px; }
+}
