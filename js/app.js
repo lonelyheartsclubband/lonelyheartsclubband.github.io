@@ -15,6 +15,7 @@ $(document).ready(function() {
 
 // Scrolling magic - http://codetheory.in/change-active-state-links-sticky-navigation-scroll/
 $(document).ready(function() {
+  console.log("scrolling magic");
   var sections = $('section'), nav = $('nav'), nav_height = nav.outerHeight();
 
   $(window).on('scroll', function () {
