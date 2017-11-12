@@ -1,5 +1,3 @@
-// $(document).foundation();
-
 //Set height of top section to window height - https://j.eremy.net/set-element-height-to-viewport/
 $(document).ready(function() {
   function setHeight() {
