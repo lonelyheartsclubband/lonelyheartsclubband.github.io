@@ -1,4 +1,5 @@
 //Set height of top section to window height - https://j.eremy.net/set-element-height-to-viewport/
+// Borrowed rom Paul Lumsdaine
 $(document).ready(function() {
   function setHeight() {
     windowHeight = $(window).innerHeight();
@@ -12,6 +13,7 @@ $(document).ready(function() {
 });
 
 // Scrolling magic - http://codetheory.in/change-active-state-links-sticky-navigation-scroll/
+// Borrowed from Paul Lumsdaine
 $(document).ready(function() {
   console.log("scrolling magic");
   var sections = $('section'), nav = $('nav'), nav_height = nav.outerHeight();
@@ -40,6 +42,7 @@ $(document).ready(function() {
   });
 
 // In-Page Scroll Animation
+// Borrowed from Paul Lumsdaine
 $('#top a[href^="#"]').on('click', function(e) {
     nav.find('a').removeClass('active');
     var hash  = this.hash,
