@@ -1,22 +1,3 @@
-body { background-color: #F0EAD6; }
-
-/* For mobile */
-iframe {
-	width: 35%;
-	height: auto;
-}
-
-/* For larger screens*/
-@media only screen and (min-width: 500px): {
-	body {
-		background-color: 'red';
-	}
-	iframe {
-		width: 560px;
-		height: 315px;
-	}
-}
-
 @font-face {
     font-family: 'Mellony Dry Brush';
     src: url('mellony_dry_brush-webfont.ttf') format('ttf'),
@@ -33,3 +14,25 @@ h3 {font-family: 'Mellony Dry Brush', sans-serif; font-weight: 200: 4rem; text-a
 p {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; }
 a:link {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; text-decoration: none; color: #b6a3f7; }
 a:hover {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; text-decoration: none; color: #9780e5; }
+
+body { background-color: #F0EAD6; }
+
+/* For mobile */
+iframe {
+	width: 35%;
+	height: auto;
+}
+
+/**/
+
+/* For larger screens*/
+@media screen and (min-width: 500px): {
+	body {
+		background-color: 'red';
+	}
+
+	iframe {
+		width: 560px;
+		height: 315px;
+	}
+}
