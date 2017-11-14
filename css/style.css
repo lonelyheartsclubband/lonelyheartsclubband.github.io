@@ -13,6 +13,7 @@ h1 { font-family: 'Mellony Dry Brush', sans-serif; font-weight: 400; font-size: 
 h1 { color: #000000; text-shadow: 2px 3px 1px #b6a3f7; }
 h2 {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 3rem; text-align: center; }
 h3 {font-family: 'Mellony Dry Brush', sans-serif; font-weight: 200: 4rem; text-align: center; }
+h3 { color: #000000; text-shadow: 2px 3px 1px #b6a3f7; }
 p {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; }
 a:link {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; text-decoration: none; color: #b6a3f7; }
 a:hover {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; text-decoration: none; color: #9780e5; }
@@ -48,28 +49,4 @@ iframe {
 		width: 640;
 		height: 360;
 	}
-}
-
-/* The navigation bar */
-navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-}
-
-/* Links inside the navbar */
-navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Main content */
-main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
