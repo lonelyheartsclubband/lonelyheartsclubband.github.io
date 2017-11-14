@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'mellony_dry_brushregular';
-    src: url('mellony_dry_brush-webfont.woff2') format('woff2'),
-         url('mellony_dry_brush-webfont.woff') format('woff');
+    src: url('mellony_dry_brush-webfont.ttf') format('ttf'),
+         /*url('mellony_dry_brush-webfont.woff') format('woff');*/
     font-weight: normal;
     font-style: normal;
 
