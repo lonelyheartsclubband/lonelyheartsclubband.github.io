@@ -24,15 +24,15 @@ iframe {
 }
 
 /* For mobile plus (ex. iPhone 8+) */
-@media screen and (min-width: 360px){
+@media screen and (min-width: 480px){
 	iframe{
-		width: 480;
-		height: 270;
+		width: 420; /* Blaze it */
+		height: 236;
 	}
 }
 
 /* For tablet */
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 768px) {
 	iframe {
 		width: 560;
 		height: 315;
@@ -40,7 +40,7 @@ iframe {
 }
 
 /* For larger screens*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 900px) {
 	iframe {
 		width: 640;
 		height: 360;
