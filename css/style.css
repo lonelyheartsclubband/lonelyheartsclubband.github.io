@@ -2,9 +2,9 @@
 
 @font-face {
     font-family: 'Mellony Dry Brush';
-    src: url('mellony_dry_brush-webfont.ttf') format('ttf'),
-         url('mellony_dry_brush-webfont.woff') format('woff'),
-				 url('mellony_dry_brush-webfont.woff2') format('woff2');
+    src: url('css/mellony_dry_brush-webfont.ttf') format('ttf'),
+         url('css/mellony_dry_brush-webfont.woff') format('woff'),
+				 url('css/mellony_dry_brush-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 
