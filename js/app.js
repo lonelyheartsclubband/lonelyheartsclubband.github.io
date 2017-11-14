@@ -82,6 +82,7 @@ $('a[href*="#"]')
       &&
       location.hostname == this.hostname
     ) {
+      console.log("Inside if");
       // Figure out element to scroll to
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
