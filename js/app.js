@@ -55,10 +55,10 @@ $('#top a[href^="#"]').on('click', function(e) {
 
     if ( hash !== '#top' ) {
         // $hash.velocity('scroll', { duration: 500, offset: -50, complete: addHash }); // Velocity.js
-        $('html,body').animate({ 'scrollTop': $hash.offset().top -50 }, 500, addHash);
+        $('html').animate({ 'scrollTop': $hash.offset().top -50 }, 500, addHash);
     } else {
         // $hash.velocity('scroll', { duration: 500, offset: 0, complete: addHash }); // Velocity.js
-        $('html,body').animate({ 'scrollTop': $hash.offset().top }, 500, addHash);
+        $('html').animate({ 'scrollTop': $hash.offset().top }, 500, addHash);
     }
     e.preventDefault();
   });
