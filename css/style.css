@@ -1,4 +1,18 @@
-/* @Typography */
+body { background-color: #F0EAD6; }
+
+/* For mobile */
+iframe {
+	width: 35%;
+	height: auto;
+}
+
+/* For larger screens*/
+@media screen and (min-width: 768px): {
+	iframe {
+		width: 560px;
+		height: 315px;
+	}
+}
 
 @font-face {
     font-family: 'Mellony Dry Brush';
