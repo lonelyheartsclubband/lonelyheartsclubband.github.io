@@ -12,5 +12,6 @@
 /*body { font-family: 'Libre Baskerville', sans-serif; font-weight: 400; }*/
 h1 { font-family: 'Mellony Dry Brush', sans-serif; font-weight: 400; font-size: 4rem; text-align: center; }
 h2 {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 3rem; text-align: center; }
-h3 {font-family: 'Mellony Dry Brush', sans-serif; font-weight: 100: 3rem; text-align: center; }
+h3, h4 {font-family: 'Mellony Dry Brush', sans-serif; font-weight: 100: 3rem; text-align: center; }
 p {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; }
+ 
