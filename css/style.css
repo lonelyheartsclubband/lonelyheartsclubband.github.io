@@ -19,15 +19,16 @@ body { background-color: #F0EAD6; }
 
 /* For mobile */
 iframe {
-	width: 35%;
+	width: 45%;
 	height: auto;
 }
 
 /**/
 
 /* For larger screens*/
-@media all and (min-width: 480px) {
-	body {
-		background-color: #FF0000;
+@media screen and (min-width: 480px) {
+	iframe {
+		width: 560;
+		height: 315;
 	}
 }
