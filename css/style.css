@@ -10,7 +10,7 @@
 /*body { font-family: 'Libre Baskerville', sans-serif; font-weight: 400; }*/
 header {font-family: 'Mellony Dry Brush', sans-serif; font-weight: 200: 4rem; text-align: center; }
 h1 { font-family: 'Mellony Dry Brush', sans-serif; font-weight: 400; font-size: 4rem; text-align: center; }
-#top h1, #retrospective h2 { color: #4a4a4a; text-shadow: 2px 3px 1px rgba(255,255,0,0.7); }
+h1 { color: #4a4a4a; text-shadow: 2px 3px 1px rgba(255,255,0,0.7); }
 h2 {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 3rem; text-align: center; }
 h3 {font-family: 'Mellony Dry Brush', sans-serif; font-weight: 200: 4rem; text-align: center; }
 p {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; }
