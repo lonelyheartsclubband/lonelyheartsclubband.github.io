@@ -40,34 +40,34 @@ $(document).ready(function() {
       }
     });
   });
-//
-// // In-Page Scroll Animation
-// // Borrowed from Paul Lumsdaine
-// $('#top a[href^="#"]').on('click', function(e) {
-//     nav.find('a').removeClass('active');
-//     var hash  = this.hash,
-//     $hash = $(hash),
-//       addHash = function() {
-//           window.location.hash = hash;
-//       };
-//
-//     $(this).addClass('active');
-//
-//     if ( hash !== '#top' ) {
-//         // $hash.velocity('scroll', { duration: 500, offset: -50, complete: addHash }); // Velocity.js
-//         $('html,body').animate({ 'scrollTop': $hash.offset().top -50 }, 500, addHash);
-//     } else {
-//         // $hash.velocity('scroll', { duration: 500, offset: 0, complete: addHash }); // Velocity.js
-//         $('html,body').animate({ 'scrollTop': $hash.offset().top }, 500, addHash);
-//     }
-//     e.preventDefault();
-//   });
-//
-//   // Open Outside Links in New Window
-//   $("a[href^='http://']").attr("target","_blank");
-//   $("a[href^='https://']").attr("target","_blank");
-//
-// });
+
+// In-Page Scroll Animation
+// Borrowed from Paul Lumsdaine
+$('#top a[href^="#"]').on('click', function(e) {
+    nav.find('a').removeClass('active');
+    var hash  = this.hash,
+    $hash = $(hash),
+      addHash = function() {
+          window.location.hash = hash;
+      };
+
+    $(this).addClass('active');
+
+    if ( hash !== '#top' ) {
+        // $hash.velocity('scroll', { duration: 500, offset: -50, complete: addHash }); // Velocity.js
+        $('html,body').animate({ 'scrollTop': $hash.offset().top -50 }, 500, addHash);
+    } else {
+        // $hash.velocity('scroll', { duration: 500, offset: 0, complete: addHash }); // Velocity.js
+        $('html,body').animate({ 'scrollTop': $hash.offset().top }, 500, addHash);
+    }
+    e.preventDefault();
+  });
+
+  // Open Outside Links in New Window
+  $("a[href^='http://']").attr("target","_blank");
+  $("a[href^='https://']").attr("target","_blank");
+
+});
 // Scroll to specific values
 // scrollTo is the same
 // Select all links with hashes
