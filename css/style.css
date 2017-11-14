@@ -19,22 +19,22 @@ body { background-color: #F0EAD6; }
 
 /* For mobile */
 iframe {
-	width: 178;
-	height: 100;
+	width: 373;
+	height: 210;
 }
 
 /* For tablet */
 @media screen and (min-width: 480px) {
 	iframe {
-		width: 373;
-		height: 210;
+		width: 560;
+		height: 315;
 	}
 }
 
 /* For larger screens*/
 @media screen and (min-width: 768px) {
 	iframe {
-		width: 560;
-		height: 315;
+		width: 640;
+		height: 36-;
 	}
 }
