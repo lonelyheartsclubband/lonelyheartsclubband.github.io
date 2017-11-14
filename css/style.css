@@ -26,7 +26,8 @@ iframe {
 /**/
 
 /* For larger screens*/
-@media screen and (min-width: 480px) {
-	body {background-color: 'red';
+@media all and (min-width: 480px) {
+	body {
+		background-color: 'red';
 	}
 }
