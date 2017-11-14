@@ -19,20 +19,20 @@ body { background-color: #F0EAD6; }
 
 /* For mobile plus*/
 iframe {
-	width: 480;
-	height: 180;
+	width: 373;
+	height: 210;
 }
 
 /* For mobile plus (ex. iPhone 8+) */
 @media screen and (min-width: 360px){
 	iframe{
-		width: 373;
-		height: 210;
+		width: 480;
+		height: 270;
 	}
 }
 
 /* For tablet */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 580px) {
 	iframe {
 		width: 560;
 		height: 315;
