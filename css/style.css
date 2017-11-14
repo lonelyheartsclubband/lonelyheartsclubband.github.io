@@ -30,6 +30,8 @@ table {}
   }
 body { background-color: #E3E3DC;}
 
+img {width: 100%; height: auto;}
+
 /* For mobile plus*/
 iframe {
 	width: 75%;
