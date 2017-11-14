@@ -40,7 +40,6 @@ $(document).ready(function() {
       }
     });
   });
-});
 
 // In-Page Scroll Animation
 // Borrowed from Paul Lumsdaine
