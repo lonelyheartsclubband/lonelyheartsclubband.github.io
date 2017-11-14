@@ -14,5 +14,5 @@ h1 { font-family: 'Mellony Dry Brush', sans-serif; font-weight: 400; font-size: 
 h2 {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 3rem; text-align: center; }
 h3 {font-family: 'Mellony Dry Brush', sans-serif; font-weight: 200: 4rem; text-align: center; }
 p {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; }
-p a:link {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; text-decoration: none}
-p a:hover {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; text-decoration: none}
+a:link {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; text-decoration: none}
+a:hover {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; text-decoration: none}
