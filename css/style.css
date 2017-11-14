@@ -1,3 +1,4 @@
+/* TYPOGRAPHY */
 @font-face {
     font-family: 'Mellony Dry Brush';
     src: url('mellony_dry_brush-webfont.ttf') format('ttf'),
@@ -18,10 +19,15 @@ p {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-
 a:link {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; text-decoration: none; color: #b6a3f7; }
 a:hover {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem; text-align: center; text-decoration: none; color: #9780e5; }
 
+/* STYLING */
+table {}
+	#stickyheader {
+                  width: 100%;
+                  height: 50px; background: black;
+  }
 body { background-color: #F0EAD6; }
 
 /* For mobile plus*/
-
 iframe {
 	width: 75%;
 	height: auto;

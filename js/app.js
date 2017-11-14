@@ -1,3 +1,5 @@
+/* Nav Bar Courtesy of http://jsfiddle.net/uFq2k/3/ */
+
 $(function(){
         // Check the initial Poistion of the Sticky Header
         var stickyHeaderTop = $('#stickyheader').offset().top;
