@@ -26,13 +26,8 @@ iframe {
 /**/
 
 /* For larger screens*/
-@media screen and (min-width: 500px): {
+@media screen and (min-width: 480px): {
 	body {
 		background-color: 'red';
-	}
-
-	iframe {
-		width: 560px;
-		height: 315px;
 	}
 }
