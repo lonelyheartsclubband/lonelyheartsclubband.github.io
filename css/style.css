@@ -17,10 +17,18 @@ a:hover {font-family: "Lucida Sans Unicode", sans-serif; font-weight: 100: 2rem;
 
 body { background-color: #F0EAD6; }
 
-/* For mobile */
+/* For mobile plus*/
 iframe {
-	width: 373;
-	height: 210;
+	width: 480;
+	height: 180;
+}
+
+/* For mobile plus (ex. iPhone 8+) */
+@media screen and (min-width: 360px){
+	iframe{
+		width: 373;
+		height: 210;
+	}
 }
 
 /* For tablet */
