@@ -31,6 +31,21 @@ body { background-color: #E3E3DC;}
 
 img {max-width: 100%; height: auto;}
 
+/*----------------new.html----------------*/
+.navbar-custom-color {
+  background-color: #9F84BD;
+}
+.rectangle {
+  width: 100%;
+  overflow: auto;
+}
+#landing-page {
+  height: 100vh;
+  overflow: none;
+  background-color: pink;
+}
+/*----------------------------------------*/
+
 /* For mobile plus*/
 iframe {
 	width: 75%;
