@@ -113,6 +113,12 @@ nav {
 #brand {
   font-family: 'Mellony Dry Brush', sans-serif;
 }
+#icons-img {
+  max-width: 30vw;
+}
+#profile-img{
+  max-width:35vw;
+}
 #film-header {
   margin-left: auto;
   margin-right: auto;
