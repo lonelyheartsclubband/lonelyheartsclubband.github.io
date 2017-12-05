@@ -82,7 +82,8 @@ nav {
 }
 #home {
   height: 100vh;
-  overflow: none;
+  overflow: hidden;
+  margin-top: 7vh;
 }
 #about {
 }
@@ -98,15 +99,15 @@ nav {
   text-align: center;
 }
 #landing-img {
-  object-fit: cover;
-  max-width: 100%;
-  height: auto;
-  background: "black";
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 #landing-img-container {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 #github-img {
   max-width: 10vw;
