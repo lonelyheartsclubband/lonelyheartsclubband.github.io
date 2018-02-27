@@ -134,6 +134,13 @@ nav {
 #profile-img{
   max-width:35vw;
 }
+#graphicsPortrait-img{
+  max-height:40vw;
+}
+#graphicsLandscape-img{
+  max-width:40vw;
+}
+
 #film-header {
   margin-left: auto;
   margin-right: auto;
