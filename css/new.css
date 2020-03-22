@@ -1,32 +1,63 @@
-
+/*
 @font-face {
     font-family: 'Mellony Dry Brush';
-    src: url('mellony_dry_brush-webfont.ttf') format('ttf'),
-         url('mellony_dry_brush-webfont.woff') format('woff'),
-				 url('mellony_dry_brush-webfont.woff2') format('woff2');
+    src: url('css/MellonyDryBrush/mellony_dry_brush-webfont.ttf') format('ttf'),
+         url('css/MellonyDryBrush/mellony_dry_brush-webfont.woff') format('woff'),
+				 url('css/MellonyDryBrush/mellony_dry_brush-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-
 }
+
+@font-face2 {
+    font-family: 'Arual';
+    src: url('css/Arual/Arual.otf') format('otf'),
+         url('css/Arual/Arual.ttf') format('ttf'),
+				 url('css/Arual/Arual.woff') format('woff'),
+         url('css/Arual/Arual.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+@font-face {
+    font-family: 'Lemon Milk';
+    src: url('css/LemonMilk/LemonMilk.otf') format('otf'),
+         url('css/LemonMilk/LemonMilk.ttf') format('ttf'),
+				 url('css/LemonMilk/LemonMilk.woff') format('woff'),
+         url('css/LemonMilk/LemonMilk.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+@font-face {
+    font-family: 'Splendid';
+    src: url('css/Arual.otf') format('otf'),
+         url('css/Arual.ttf') format('ttf'),
+				 url('css/Arual.woff') format('woff'),
+         url('css/Arual.woff'2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
 body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
 }
 h3 {
-    font-family: 'Mellony Dry Brush', sans-serif;
+      color: #FFFFFF;
+    font-family: 'Lemon Milk' sans-serif;
     font-weight: 400: 4rem;
     font-size: 3.5rem;
     margin-bottom: -15px
-    color: #000000;
+
     text-shadow: 1px 2px .5px #b6a3f7;
 }
 h2 {
-    font-family: 'Mellony Dry Brush', sans-serif;
+      color: #FFFFFF;
+    font-family: 'Lemon Milk' sans-serif;
     font-weight: 400: 4rem;
     font-size: 5rem;
     margin-bottom: -15px
-    color: #000000;
     text-shadow: 1px 2px .5px #b6a3f7;
 }
 a {
@@ -34,6 +65,7 @@ a {
 }
 p {
   font-size: 1.2em;
+  color: #FFFFFF;
 }
 
 pGraphics {
@@ -46,6 +78,11 @@ iframe {
 nav {
   opacity: 0.9;
 }
+
+.typewrite {
+  color: #FFFFFF;
+}
+
 .navbar-custom-color {
   background-color: #9F84BD;
 }
@@ -59,6 +96,7 @@ nav {
 }
 .text-block {
   width: 50vw;
+  text-align: center;
 }
 .full-video-container {
   margin-left: 2vw;
@@ -75,12 +113,11 @@ nav {
   margin-bottom: 5vh;
   margin-right: 5vw;
 }
-.video-disc {
 
-}
 .main-header {
   font-size: 3.5rem;
 }
+
 .sub-header {
   font-size: 2.5rem;
 }
@@ -90,12 +127,31 @@ nav {
     width: 50%;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+
+.footer {
+  position:static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+body {
+  background-color:white;
+  text-align: center;
+  color:#fff;
+  padding-top:.25em;
+}
+
+/*Typewrite Color*/
+* { color:white; text-decoration: none;}
 
 #home {
   height: 100vh;
@@ -108,7 +164,7 @@ nav {
   width: 100vw;
 }
 #code {
-  text-align: right;
+  /*text-align: right;*/
 }
 #contact {
   margin-top: 20vh;
@@ -130,7 +186,7 @@ nav {
   max-width: 10vw;
 }
 #brand {
-  font-family: 'Mellony Dry Brush', sans-serif;
+  font-family: 'Lemon Milk', sans-serif;
 }
 #icons-img {
   max-width: 30vw;
@@ -150,7 +206,7 @@ nav {
   margin-right: auto;
 }
 #brand {
-  font-family: 'Mellony Dry Brush', sans-serif;
+  font-family: 'Lemon Milk', sans-serif;
   text-shadow: 1px 2px .5px black;
 }
 #user-research {
