@@ -50,7 +50,7 @@ h3 {
       color: #FFFFFF;
     font-family: 'Lemon Milk' sans-serif;
     font-weight: 400: 4rem;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin-bottom: -15px
 
     text-shadow: 1px 2px .5px #b6a3f7;
@@ -73,9 +73,21 @@ p {
 pGraphics {
   font-size: 1em;
 }
-iframe {
+
+.iframe-container{
+  height: 360px;
+  position: relative;
+  width: 75%;
+  padding-bottom: 56.25%;
+  margin-left: auto;   /* Automatic margin from left */
+  margin-right: auto; /* Automatic margin from right */
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
   width: 100%;
-  height: 50%;
+  height: 100%;
 }
 nav {
   opacity: 1;
